@@ -44,6 +44,8 @@ class ArticleController extends Controller
             'content' => $request->content,
             'featured_image' => $image_name,
         ]);
+        
+        return 'Artikel berhasil disimpan';
     }
 
     /**
