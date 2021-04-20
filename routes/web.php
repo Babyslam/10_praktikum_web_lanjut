@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource('articles',ArticlesController::class);
+
 Route::get('/', function () {
     return view('welcome');
 });
